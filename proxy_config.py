@@ -2,7 +2,7 @@ import os
 
 # This can also be replaced with another IP address.
 USE_SSL = True
-REMOTE_HOST = "localhost"
+REMOTE_HOST = "139.177.184.135"
 REMOTE_PORT = 443
 
 if os.getenv('MITM_REMOTE_HOST') != None:
